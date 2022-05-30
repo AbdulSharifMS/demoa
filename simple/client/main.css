@@ -1,0 +1,48 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+* {
+  background-color: aliceblue;
+}
+
+.search-text {
+  float: right;
+}
+
+.search-button {
+  float: right;
+}
+
+.sample {
+  border: 2px solid wheat;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  border: .5px solid white;
+  height: 60px;
+}
+
+.mainhead {
+  display: flex;
+  background-color: blanchedalmond;
+  justify-content: center;
+  border: 2px black;
+  flex-grow: 6;
+}
+
+.heading2 {
+  display: flex;
+  justify-content: center;
+  background-color: blanchedalmond;
+}
+
+.edit,
+.delete-task {
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+}
